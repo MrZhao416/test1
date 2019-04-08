@@ -1,0 +1,225 @@
+header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    box-shadow: 0 1px 1px rgba(0,0,250,.2);
+}
+#head,#head-left,#head-right{
+    background-color: #000;
+    height: 35px
+}
+nav{
+    height: 56px;
+    background: #ffffff;
+
+}
+#head-left{
+    width: 90%;
+    float: left;
+}
+
+#head-right{
+    width:7%;
+    float: right;
+    border-left: 1px solid #fff;
+}
+
+
+#head-right .icon-iconfront-{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+#head-right span{
+    float: left;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#country{
+    width: 23.3%;
+    height: 54.7%;
+    float: right;
+    margin-right: 21%;
+    margin-top: 8%;
+    background: url("../img/sprites-s99205a059c.png") 0 -796px;
+}
+
+#head-left a{
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    margin-left: 30px;
+    line-height: 35px;
+}
+#head-right a{
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 35px;
+    display: inline-block;
+}
+#head-right:hover .icon-iconfront-{
+    text-decoration: underline;
+}
+#head a:hover,#head span{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+#nav-left{
+    width: 550px;
+    height: 56px;
+    float: left;
+}
+#nav-left h1{
+    float: left;
+    width: 73px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+#nav-left ul,#nav-left ul li{
+    float: left;
+}
+#nav-left ul li{
+    margin: 0 15px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#nav-left ul li:hover{
+    border-bottom: 4px solid #000;
+    cursor: pointer;
+}
+#nav-left ul li:nth-child(1){
+    margin-left: 43px;
+}
+
+
+#nav-search{
+    float: left;
+    height: 100%;
+    width: 52%;
+
+}
+#nav-search form{
+    float: right;
+    padding-top: 10px;
+}
+#txt{
+    padding: 12px 20px;
+    width: 270px;
+    float: left;
+    outline: none;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+#search{
+    float: left;
+    width: 40px;
+    height: 41px;
+    border: 1px solid #ccc;
+    border-left: none;
+    cursor: pointer;
+    background: #fff url("../img/放大镜.png") no-repeat center ;
+}
+#nav-right{
+    height:56px;
+    width: 19%;
+    float: right;
+
+}
+#nav-right li{
+    float: left;
+    line-height: 56px;
+}
+#nav-right li span,#nav-right li a{
+    float: left;
+}
+#nav-right li a{
+    color: #000000;
+    margin-left: 7px;
+}
+#nav-right li a:hover{
+    color: rgb(207,10,44);
+}
+#nav-right li:nth-child(1){
+    margin-left: 50px;
+}
+#nav-right li:nth-child(1) .icon-icon{
+    font-size: 30px;
+    line-height: 56px;
+}
+#nav-right li:nth-child(2){
+    margin-left: 30px;
+}
+#nav-right li:nth-child(2) .icon-shoutibao{
+    font-size: 30px;
+    line-height: 56px ;
+}
+
+#nav-right li a{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 56px;
+}
+
+header .icon-fork{
+    width: 50px;
+    height: 50px;
+    color: #F7F7F7;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1729px) {
+    #head-left{
+        width:85% ;
+    }
+    #nav-right{
+        width: 15%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    #nav-search{
+        width:40% ;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #head-left{
+        width:95% ;
+    }
+    #nav-search{
+        width:90% ;
+        padding-left: 5%;
+    }
+    #nav-search form{
+        width: 98%;
+    }
+    #txt{
+        padding: 10px 20px;
+        width: 88%;
+        border: none;
+        float: left;
+        outline: none;
+    }
+    #nav-left{
+        display: none;
+    }
+    #head-right{
+        display: none;
+    }
+}

@@ -1,0 +1,144 @@
+#foot{
+    height: 452px;
+}
+.foot_wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+.foot_top_cont{
+    height: 73px ;
+}
+.foot_mid_cont{
+    height: 215px;
+}
+.foot_bot_cont{
+    height: 50px;
+}
+#foot-top,#foot-mid,#foot-bot{
+    background-color: #232323;
+}
+.foot_wrap span,.foot_wrap a{
+    float:left;
+}
+.foot_top_cont a{
+    height: 73px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 73px;
+}
+.foot_top_cont{
+    padding: 0 150px;
+    width: 660px;
+}
+#foot_top_left .icon-iconfront-,#foot_top_right .icon-aite{
+    color: red;
+    font-size: 42px;
+    line-height: 73px;
+}
+#foot_top_left,#foot_top_right{
+    float: left;
+}
+.foot_top_cont div{
+    margin: 0 90px;
+}
+
+#foot-mid{
+    padding: 20px 0;
+    border-top: 2px solid #323232;
+    border-bottom: 2px solid #323232;
+}
+#foot-mid ul{
+    float: left;
+    width: 240px;
+    color: #fff;
+}
+#foot-mid ul li{
+    height: 20px;
+    padding:0 15px;
+    margin-bottom: 10px;
+}
+#foot-mid ul a{
+    font-size: 12px;
+    display: block;
+    height: 20px;
+    width: 100%;
+    color: #ffffff;
+    line-height: 20px;
+}
+#foot-mid ul a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#foot-mid ul li:first-child{
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+#foot-mid ul:last-child {
+    font-size: 12px;
+}
+#foot-mid ul:last-child li{
+}
+#foot-mid ul:last-child li:nth-child(2){
+    height: 37px;
+}
+#foot-mid ul:last-child li:nth-child(3),
+#foot-mid ul:last-child li:nth-child(4),
+#foot-mid ul:last-child li:nth-child(6),
+#foot-mid ul:last-child li:nth-child(7),
+#foot-mid ul:last-child li:nth-child(8)
+{
+    margin-bottom:0;
+}
+#foot-mid ul:last-child li:nth-child(2) span{
+    float: left;
+    line-height: 37px;
+}
+#foot-mid ul:last-child li:nth-child(2) span:nth-child(1){
+    margin-top: -2px;
+}
+#foot-mid ul:last-child li:nth-child(2) .icon-weixin{
+    font-size: 38px;
+}
+#foot-mid ul:last-child li:nth-child(2) .icon-weibo1
+{
+    font-size: 37px;
+}
+#foot-mid ul:last-child li:nth-child(2) .icon-weibo1:hover
+,#foot-mid ul:last-child li:nth-child(2) .icon-weixin:hover{
+    color: red;
+    cursor: pointer;
+}
+#foot-bot{
+    padding: 35px 0;
+}
+.footer{
+    width: 577px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.footer-left,.footer-right{
+    float: left;
+}
+.footer span{
+    color: #666666;
+}
+.footer a{
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0 5px;
+}
+
+p{
+    height: 25px;
+    line-height: 25px;
+}
+p span,p a,p img{
+    float: left;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
